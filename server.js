@@ -75,7 +75,7 @@ require('fs').readFile('listings.json', 'utf8', function(err, data) {
   //Start the server
   server.listen(port, function() {
     //once the server is listening, this callback function is executed
-    console.log('Server listening on: http://127.0.0.1:' + port);
+    console.log('Server listening on: http://localhost:' + port);
   });
 
 });
